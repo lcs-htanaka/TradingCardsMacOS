@@ -11,6 +11,8 @@
 		EBEE8A382B5ECFAC00A73938 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE8A372B5ECFAC00A73938 /* ContentView.swift */; };
 		EBEE8A3A2B5ECFB100A73938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBEE8A392B5ECFB100A73938 /* Assets.xcassets */; };
 		EBEE8A3D2B5ECFB100A73938 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBEE8A3C2B5ECFB100A73938 /* Preview Assets.xcassets */; };
+		EBEE8A492B6181F800A73938 /* TradingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE8A482B6181F800A73938 /* TradingCard.swift */; };
+		EBEE8A4B2B61BADB00A73938 /* PlayerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE8A4A2B61BADB00A73938 /* PlayerListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		EBEE8A392B5ECFB100A73938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBEE8A3C2B5ECFB100A73938 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EBEE8A3E2B5ECFB100A73938 /* TradingCardsMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TradingCardsMacOS.entitlements; sourceTree = "<group>"; };
+		EBEE8A482B6181F800A73938 /* TradingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCard.swift; sourceTree = "<group>"; };
+		EBEE8A4A2B61BADB00A73938 /* PlayerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				EBEE8A392B5ECFB100A73938 /* Assets.xcassets */,
 				EBEE8A3E2B5ECFB100A73938 /* TradingCardsMacOS.entitlements */,
 				EBEE8A3B2B5ECFB100A73938 /* Preview Content */,
+				EBEE8A482B6181F800A73938 /* TradingCard.swift */,
+				EBEE8A4A2B61BADB00A73938 /* PlayerListView.swift */,
 			);
 			path = TradingCardsMacOS;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 			files = (
 				EBEE8A382B5ECFAC00A73938 /* ContentView.swift in Sources */,
 				EBEE8A362B5ECFAB00A73938 /* TradingCardsMacOSApp.swift in Sources */,
+				EBEE8A492B6181F800A73938 /* TradingCard.swift in Sources */,
+				EBEE8A4B2B61BADB00A73938 /* PlayerListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

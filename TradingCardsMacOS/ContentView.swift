@@ -8,9 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let player: TradingCard
+    
     var body: some View {
         ZStack{
-            Color.yellow
+            player.color
             
             VStack {
                 
@@ -22,7 +25,7 @@ struct ContentView: View {
                     .padding(.leading)
                     .padding(.trailing)
                 
-                Text("NOLAN")
+                Text(player.firstName)
                     .fontWeight(.regular)
                     .font(.system(.title, design: .serif))
                     .lineSpacing(10.0)
@@ -32,13 +35,13 @@ struct ContentView: View {
                     .padding(.leading)
                     .padding(.trailing)
                 
-                Text("RYAN")
+                Text(player.lastName)
                     .fontWeight(.bold)
                     .fontDesign(.serif)
                     .font(.system(size: 40))
                  
         
-                    Image("BaseballPlayer")
+                Image(player.image)
                     .resizable()
                     .scaledToFit()
                 
@@ -48,7 +51,7 @@ struct ContentView: View {
                         .frame(height: 5)
                         .padding(.leading)
                     
-                    Text("RANGERS•P")
+                    Text(player.team)
                         .fontWeight(.bold)
                         .font(.system(size: 15))
                     
@@ -71,5 +74,21 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    ContentView(player: nolan)
+}
+
+#Preview {
+    ContentView(player: roger)
+}
+
+#Preview {
+    ContentView(player: clayton)
+}
+
+#Preview {
+    ContentView(player: derek)
+}
+
+#Preview {
+    ContentView(player: mike)
 }
