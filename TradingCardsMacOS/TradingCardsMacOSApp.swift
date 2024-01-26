@@ -11,7 +11,7 @@ import SwiftUI
 struct TradingCardsMacOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView(player: roger)
+            DetailView(player: roger)
         }
     }
 }

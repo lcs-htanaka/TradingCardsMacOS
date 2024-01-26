@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  DetailView.swift
 //  TradingCardsMacOS
 //
 //  Created by 田中宏貴 on 2024-01-22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct DetailView: View {
     
     let player: TradingCard
     
@@ -74,21 +74,21 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView(player: nolan)
+    DetailView(player: nolan)
 }
 
 #Preview {
-    ContentView(player: roger)
+    DetailView(player: roger)
 }
 
 #Preview {
-    ContentView(player: clayton)
+    DetailView(player: clayton)
 }
 
 #Preview {
-    ContentView(player: derek)
+    DetailView(player: derek)
 }
 
 #Preview {
-    ContentView(player: mike)
+    DetailView(player: mike)
 }

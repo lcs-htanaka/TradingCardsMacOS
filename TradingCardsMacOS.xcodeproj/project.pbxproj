@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EBEE8A362B5ECFAB00A73938 /* TradingCardsMacOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE8A352B5ECFAB00A73938 /* TradingCardsMacOSApp.swift */; };
-		EBEE8A382B5ECFAC00A73938 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE8A372B5ECFAC00A73938 /* ContentView.swift */; };
+		EBEE8A382B5ECFAC00A73938 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE8A372B5ECFAC00A73938 /* DetailView.swift */; };
 		EBEE8A3A2B5ECFB100A73938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBEE8A392B5ECFB100A73938 /* Assets.xcassets */; };
 		EBEE8A3D2B5ECFB100A73938 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBEE8A3C2B5ECFB100A73938 /* Preview Assets.xcassets */; };
 		EBEE8A492B6181F800A73938 /* TradingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBEE8A482B6181F800A73938 /* TradingCard.swift */; };
@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		EBEE8A322B5ECFAB00A73938 /* TradingCardsMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingCardsMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBEE8A352B5ECFAB00A73938 /* TradingCardsMacOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingCardsMacOSApp.swift; sourceTree = "<group>"; };
-		EBEE8A372B5ECFAC00A73938 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EBEE8A372B5ECFAC00A73938 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		EBEE8A392B5ECFB100A73938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EBEE8A3C2B5ECFB100A73938 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EBEE8A3E2B5ECFB100A73938 /* TradingCardsMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TradingCardsMacOS.entitlements; sourceTree = "<group>"; };
@@ -57,12 +57,11 @@
 			isa = PBXGroup;
 			children = (
 				EBEE8A352B5ECFAB00A73938 /* TradingCardsMacOSApp.swift */,
-				EBEE8A372B5ECFAC00A73938 /* ContentView.swift */,
+				EBEE8A4D2B64013C00A73938 /* View */,
+				EBEE8A4C2B64012600A73938 /* Model */,
 				EBEE8A392B5ECFB100A73938 /* Assets.xcassets */,
 				EBEE8A3E2B5ECFB100A73938 /* TradingCardsMacOS.entitlements */,
 				EBEE8A3B2B5ECFB100A73938 /* Preview Content */,
-				EBEE8A482B6181F800A73938 /* TradingCard.swift */,
-				EBEE8A4A2B61BADB00A73938 /* PlayerListView.swift */,
 			);
 			path = TradingCardsMacOS;
 			sourceTree = "<group>";
@@ -73,6 +72,23 @@
 				EBEE8A3C2B5ECFB100A73938 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBEE8A4C2B64012600A73938 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE8A482B6181F800A73938 /* TradingCard.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EBEE8A4D2B64013C00A73938 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE8A372B5ECFAC00A73938 /* DetailView.swift */,
+				EBEE8A4A2B61BADB00A73938 /* PlayerListView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBEE8A382B5ECFAC00A73938 /* ContentView.swift in Sources */,
+				EBEE8A382B5ECFAC00A73938 /* DetailView.swift in Sources */,
 				EBEE8A362B5ECFAB00A73938 /* TradingCardsMacOSApp.swift in Sources */,
 				EBEE8A492B6181F800A73938 /* TradingCard.swift in Sources */,
 				EBEE8A4B2B61BADB00A73938 /* PlayerListView.swift in Sources */,
